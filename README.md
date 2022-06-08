@@ -22,7 +22,7 @@ The following references articulate how these indicators have been developed and
 
 ## Overview of the Notebook:
 
-Advacnes in NLP algorithms, as in the studies above, have made predicting clinical indicators more accurate, yet in order to effectively use machine learning models in a production setting, clinicians need more insight into how these models work than just accuracy. They need to know that these algorithms make clinical sense before going to production. They need a way to evaluate realiablility, and explainability over time as more data continues to be evaluated, and machine learning models are retrained.
+Advances in NLP algorithms, as in the studies above, have made predicting clinical indicators more accurate, yet in order to effectively use machine learning models in a production setting, clinicians need more insight into how these models work than just accuracy. They need to know that these algorithms make clinical sense before going to production. They need a way to evaluate realiablility, and explainability over time as more data continues to be evaluated, and machine learning models are retrained.
 
 This notebook will take one of these clinical triage indicators, mortality, and show how AWS services and infrastructure, along with pre-trained HuggingFace BERT models, can be used to train a binary classifier on data, estimate a threshold value for triage, and then use Amazon Clarify to explain what admission note text is supporting the recommendations the algorithm is making. The intent is to provide a practical guide for Data Scientists and machine learning engineers to collaborate with clinicians to support real implementations of mortality prediction, in support of triage processes in health care settings.
 
