@@ -1,6 +1,6 @@
 # Using Amazon Sagemaker Clarify to support Decision Support in Hospital Triage
 
-## Acute Care Clinical Context:
+## Background and Context :
 
 Decision Support at admission time can be especially valuable for prioritization of resources in an acute care clinical setting such as a hosptial. These critical resources come in the form of doctors and nurses, as well as specialized beds, such as ones in the intensive care units. These place limits on the overall capacity of the hospital to treat patients.
 
